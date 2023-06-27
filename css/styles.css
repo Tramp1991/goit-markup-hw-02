@@ -14,7 +14,7 @@
 
   background-color: #fff;
 }
-a {
+.link {
   text-decoration: none;
 }
 ul {
@@ -36,16 +36,16 @@ ul {
 .header-nav {
 }
 .header-logo {
-  color: var(--links-color, #2e2f42);
+  color: var(--accent);
   font-size: 18px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 .logo-color {
-  color: var(--accent);
+  color: var(--links-color, #2e2f42);
 }
 .header-list {
 }
@@ -100,7 +100,7 @@ ul {
   letter-spacing: 0.64px;
 
   background: var(--accent, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
 }
 /* Strategy */
 .strategy-section {
@@ -176,13 +176,18 @@ ul {
   background-color: #2e2f42;
 }
 .footer-logo {
-  color: var(--footer-text, #f4f4fd);
+  color: var(--accent, #4d5ae5);
+
   font-size: 18px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+
+.footer-logo .logo-color {
+  color: var(--footer-text, #f4f4fd);
 }
 .footer-desc {
   color: var(--footer-text, #f4f4fd);
@@ -216,8 +221,8 @@ ul {
   text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
   background: var(--ocean, #404bbf);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1); */
 }
 
 /* Galary */
