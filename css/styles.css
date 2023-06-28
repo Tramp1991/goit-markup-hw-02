@@ -55,10 +55,10 @@
 
 .header-list :hover,
 .header-list :focus {
-  color: var(--white, #fff);
+  color: var(--ocean, #404bbf);
   text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
-  background: var(--ocean, #404bbf);
+  background: var(--slate, #434455);
 }
 
 .header-item {
@@ -79,25 +79,14 @@
 }
 .header-contacts-adress :hover,
 .header-contacts-adress :focus .header-contacts-list {
-  color: var(--white, #fff);
+  color: var(--ocean, #404bbf);
   text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
-  background: var(--ocean, #404bbf);
+  background: var(--slate, #434455);
 }
 .header-contacts-item {
 }
-.header-contact :hover,
-.header-contact :focus {
-  color: var(--white, #fff);
-  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  background: var(--ocean, #404bbf);
-}
-.hero-btn :hover,
-.hero-btn :focus {
-  color: var(--white, #fff);
-  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  background: var(--ocean, #404bbf);
-}
+
 .header-contact {
   font-size: 16px;
   line-height: 1.5;
@@ -130,7 +119,7 @@
   line-height: 1.5;
   letter-spacing: 0.64px;
 
-  background: var(--accent, #4d5ae5);
+  background: var(--ocean, #404bbf);
   cursor: pointer;
 }
 
