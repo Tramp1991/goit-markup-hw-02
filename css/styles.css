@@ -60,6 +60,7 @@
 
   background: var(--slate, #434455);
 }
+.header-list :focus,
 .header-list :active {
   color: var(--ocean, #404bbf);
 }
