@@ -162,7 +162,7 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 .team-list {
 }
@@ -170,10 +170,11 @@
   background-color: #ffffff;
 }
 .team-desc {
+  color: var(--text-color);
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 .team-img {
 }
