@@ -53,15 +53,10 @@
 .header-list {
 }
 
-.header-list :hover,
-.header-list :focus {
-  color: var(--ocean, #404bbf);
-  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
-  background: var(--slate, #434455);
-}
-.header-list :focus,
-.header-list :active {
+.header-item :hover,
+.header-item :focus,
+.header-contacts-item > a:hover,
+.header-contacts-item > a:focus {
   color: var(--ocean, #404bbf);
 }
 
@@ -81,13 +76,7 @@
 .header-contacts-adress {
   font-style: normal;
 }
-.header-contacts-adress :hover,
-.header-contacts-adress :focus .header-contacts-list {
-  color: var(--ocean, #404bbf);
-  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
-  background: var(--slate, #434455);
-}
 .header-contacts-item {
 }
 
@@ -123,8 +112,12 @@
   line-height: 1.5;
   letter-spacing: 0.64px;
 
-  background: var(--accent);
+  background-color: var(--accent);
   cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
 }
 
 /* Strategy */
@@ -275,6 +268,6 @@
 }
 .gallary-desc {
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
