@@ -7,6 +7,7 @@
   --subtitle-color: #2e2f42;
   --footer-text: #f4f4fd;
 }
+
 /* Body blok */
 .body {
   font-family: Roboto, sans-serif;
@@ -21,7 +22,6 @@
 .list {
   list-style: none;
 }
-
 .section-title {
   color: var(--subtitle-color, #2e2f42);
   text-align: center;
@@ -46,11 +46,9 @@
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-
 .logo-color {
   color: var(--links-color, #2e2f42);
 }
-
 .header-list {
 }
 
@@ -108,6 +106,7 @@
   background: var(--accent, #4d5ae5);
   cursor: pointer;
 }
+
 /* Strategy */
 .strategy-section {
 }
@@ -151,6 +150,7 @@
 }
 .employment-img {
 }
+
 /* Team */
 .team-section {
   background-color: #f4f4fd;
@@ -176,11 +176,13 @@
 }
 .team-img {
 }
+
 /* footer */
 
 .footer-blok {
   background-color: #2e2f42;
 }
+
 .footer-logo {
   color: var(--accent, #4d5ae5);
 
@@ -195,6 +197,7 @@
 .footer-logo .logo-color {
   color: var(--footer-text, #f4f4fd);
 }
+
 .footer-desc {
   color: var(--footer-text, #f4f4fd);
   font-size: 16px;
